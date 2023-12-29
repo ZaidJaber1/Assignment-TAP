@@ -1,0 +1,143 @@
+* {
+    font-family: 'Poppins', Arial, sans-serif !important;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+main {
+    margin: 5%;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 2% 2%;
+    padding: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500 !important;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+    color: #D1884F;
+}
+
+.inlineContainer {
+    display: flex;
+}
+
+.inline {
+    flex: 1;
+}
+
+.personalImage img {
+    max-width: 70%;
+    height: auto;
+    border-bottom-left-radius: 50%;
+    margin-left: 30%;
+    box-shadow: -30px 12px 1px -13px #CAB393;
+}
+
+.arciticBlue {
+    color: #3BBADB;
+}
+
+.starBlue {
+    color: #008AAA;
+}
+
+.gold {
+    color: #D1884F;
+}
+
+.inlineContainer .inline a {
+    text-decoration: none;
+    color: #3BBADB;
+}
+
+.inlineContainer .inline .arciticBlue {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.inlineContainer .inline .starBlue {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.inlineContainer .inline .bio {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer div button {
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px 2%;
+}
+
+.alertButtonStarBlue {
+    background-color: #008AAA;
+    border: none;
+    color: white;
+    border: 2px solid #008AAA;
+}
+
+.outlineButtonStarBlue {
+    background-color: white;
+    color: #008AAA;
+    border: 2px solid #008AAA;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    header nav ul {
+        text-align: center;
+        margin: 2% 0;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 3% 0;
+        text-align: center;
+    }
+
+    .inlineContainer {
+        flex-direction: column;
+    }
+
+    .personalImage img {
+        max-width: 100%;
+        margin-left: 0;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+
+    .inline {
+        text-align: center;
+    }
+
+    footer div button {
+        width: 100%;
+        margin: 3% 0;
+    }
+
+    .outlineButtonStarBlue {
+        margin-left: 0;
+    }
+}
